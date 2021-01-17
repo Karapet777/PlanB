@@ -1,0 +1,14 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+.App p {
+  margin: 0;
+  color: red;
+  font-style: italic;
+}
