@@ -1,10 +1,16 @@
+import React from "react";
+
+import Layout from "./components/layout/Layout";
+import Service from "./containers/Service/Service";
+
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <p>Welcome</p>
-      <p>Only with a smile :)</p>
+      <Layout>
+        <Service />
+      </Layout>
     </div>
   );
 }

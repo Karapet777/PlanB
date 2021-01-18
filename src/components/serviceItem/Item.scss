@@ -1,0 +1,20 @@
+.block-item {
+  width: 350px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block-icon img {
+  width: 100px;
+}
+.title {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+.info {
+  line-height: 25px;
+}
