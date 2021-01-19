@@ -1,0 +1,63 @@
+$color-white: #fff;
+$color-purple: #ffa37b;
+$font-famili: "Raleway", sans-serif;
+
+.header_content {
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 90px;
+    padding-left: 62px;
+    padding-right: 62px;
+    transition: all 400ms ease;
+}
+.header_content {
+    .logo {
+        width: 130px;
+        height: 41px;
+        border: solid 2px $color-white;
+        text-align: center;
+    }
+    .logo {
+        a {
+            font-family: $font-famili;
+            display: block;
+            font-size: 24px;
+            font-weight: 600;
+            color: $color-white;
+            line-height: 37px;
+        }
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+.main_nav {
+    ul {
+        li:not(:last-of-type) {
+            margin-right: 49px;
+        }
+        li.active a {
+            color: $color-purple;
+        }
+        a {
+            font-family: $font-famili;
+            font-size: 16px;
+            font-weight: 500;
+            color: $color-white;
+        }
+        a:hover {
+            color: $color-purple;
+        }
+    }
+}
+
+span {
+    font-size: 16px;
+    font-weight: 500;
+    color: $color-white;
+    margin-left: 9px;
+}
+.iPhone {
+    color: $color-white;
+}
