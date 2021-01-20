@@ -1,0 +1,11 @@
+.app-block-imges {
+  width: 100%;
+  display: flex;
+  margin: 50px 0;
+  justify-content: space-between;
+  & img {
+    width: 100%;
+    min-width: 480px;
+    object-fit: cover;
+  }
+}
