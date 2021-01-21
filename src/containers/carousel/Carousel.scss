@@ -1,0 +1,56 @@
+.app-carousel-box {
+  width: 100%;
+  height: 650px;
+  background: url(../../assets/img/bg-carousel.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &__layer {
+    padding: 20px 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba($color: #000000, $alpha: 0.9);
+  }
+  &__item {
+    width: 500px;
+    position: relative;
+    left: 40%;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title {
+      padding: 20px 0;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    &__info {
+      line-height: 30px;
+    }
+    &__stars {
+      display: flex;
+    }
+    &__stars svg {
+      width: 20px;
+      height: 20px;
+    }
+    &__img img {
+      margin-top: 20px;
+      border-radius: 50%;
+    }
+  }
+}
+.bl {
+  display: flex;
+}
