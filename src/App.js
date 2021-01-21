@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Layout from "./components/layout/Layout";
 import Service from "./containers/Service/Service";
 import BlockImges from "./containers/imgblock/Imgblock";
+import YearsBlock from "./containers/YearsBlock/YearsBlock";
 
 import "./App.scss";
 
@@ -14,6 +15,7 @@ function App() {
       <Layout>
         <Service />
         <BlockImges />
+        <YearsBlock />
       </Layout>
     </div>
   );

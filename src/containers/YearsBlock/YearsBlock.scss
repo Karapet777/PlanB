@@ -1,0 +1,26 @@
+.app-years-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  &__title {
+    padding: 10px 0px 30px 0;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  &__info {
+    line-height: 20px;
+  }
+  & div {
+    padding: 10px;
+  }
+  &__block-img {
+    display: flex;
+  }
+  &__block-img img {
+    object-fit: contain;
+    padding: 10px;
+  }
+}
