@@ -6,6 +6,8 @@ import Service from "./containers/Service/Service";
 import BlockImges from "./containers/imgblock/Imgblock";
 import YearsBlock from "./containers/YearsBlock/YearsBlock";
 import CarouselBox from "./containers/carousel/Carousel";
+import Rooms from "./containers/roomsSection/RoomSection";
+import ImgSection from "./containers/imgSection/ImgSection";
 
 import "./App.scss";
 
@@ -18,6 +20,8 @@ function App() {
         <BlockImges />
         <YearsBlock />
         <CarouselBox />
+        <Rooms />
+        <ImgSection />
       </Layout>
     </div>
   );

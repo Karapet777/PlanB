@@ -1,0 +1,47 @@
+.app-room-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 50px auto;
+  &__text-block {
+    text-align: center;
+    margin: 70px 0;
+    &__title {
+      font-size: 50px;
+      font-weight: bold;
+    }
+    &__info {
+      padding: 20px 0;
+      width: 1000px;
+      margin: auto;
+      line-height: 25px;
+    }
+  }
+  &__rooms-block {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 400px;
+    height: 600px;
+    background: url(../../assets/img/gallery_3.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__block-prace {
+      margin: 10px 0 0 10px;
+      width: 125px;
+      height: 40px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+  }
+}
+.img3 {
+  background: url(../../assets/img/gallery_2.jpg);
+}
+.img2 {
+  background: url(../../assets/img/slide-1.jpg);
+}
